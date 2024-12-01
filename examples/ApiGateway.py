@@ -15,6 +15,8 @@ from troposphere.apigateway import (
     ThrottleSettings,
     UsagePlan,
     UsagePlanKey,
+ 
+    
 )
 from troposphere.awslambda import Code, Function
 from troposphere.iam import Policy, Role
